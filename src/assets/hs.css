@@ -1,0 +1,45 @@
+.book {
+    width: 25%;
+    padding: 24px;
+  }
+
+  .books {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+.book__ratings {
+    margin-bottom: 8px;
+    color: #fabf2a;
+  }
+
+  .book__price--normal {
+    text-decoration: line-through;
+    padding-right: 6px;
+    color: #bfbfbf;
+  }
+
+  .book__img{
+   width: 50%;
+    max-height: 380px;
+  }
+
+ 
+
+  .books__main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  
+  .books__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+  }
+
+  #filter{
+height: 25px;
+  }
